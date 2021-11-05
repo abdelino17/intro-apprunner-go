@@ -49,6 +49,5 @@ func calc(w http.ResponseWriter, r *http.Request) {
 		break
 	}
 	log.Printf("resultat: %d", res)
-	log.Printf("resultat: %d", res)
 	fmt.Fprintf(w, "Resultat: %d!\n", res)
 }
